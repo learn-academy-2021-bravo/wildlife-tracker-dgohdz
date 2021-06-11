@@ -1,6 +1,6 @@
 Story: As the consumer of the API I can create an animal and save it in the database. An animal has the following information: common name, latin name, kingdom (mammal, insect, etc.).
 
-$ rails generate model Animal common_name:string latin_name:string kingdom:string 
+$ rails generate resource Animal common_name:string latin_name:string kingdom:string 
 
 then $rails db:migrate
 
@@ -12,6 +12,8 @@ m:"Animalia"
 Hint: Make a few animals using Rails Console
 
 Story: As the consumer of the API I can update an animal in the database.
+
+
 
 Story: As the consumer of the API I can destroy a animal in the database.
 
